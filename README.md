@@ -17,3 +17,9 @@ to add
 <img width="1236" height="433" alt="image" src="https://github.com/user-attachments/assets/f432a841-6d0d-4efc-a2f0-41463ecc934f" />
 
 <img width="1221" height="433" alt="image" src="https://github.com/user-attachments/assets/4f62e155-e7aa-49dc-8ec0-5201d0a0c293" />
+
+<img width="1232" height="418" alt="image" src="https://github.com/user-attachments/assets/f5320cd2-fe87-4633-8853-b19806cac84a" />
+
+<img width="1237" height="421" alt="image" src="https://github.com/user-attachments/assets/1ffb77de-15c4-4f2a-8161-6a6e2d3a28e2" />
+
+<img width="1221" height="430" alt="image" src="https://github.com/user-attachments/assets/699cee5c-264d-47a0-abc5-edb997124f73" />
