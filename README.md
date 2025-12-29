@@ -33,6 +33,7 @@ Each stage is explained in detail below.
 - **Data Exploration & Cleaning**
 
   **Initial Data Inspection:**
+  
       - Examined dataset shape and structure
       - Reviewed summary statistics for numerical and categorical features
       - Identified skewness in the target variable (SalePrice)
