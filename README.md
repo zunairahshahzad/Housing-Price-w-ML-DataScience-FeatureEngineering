@@ -5,17 +5,13 @@ This project focuses on predicting residential home sale prices in Ames, Iowa, u
 The primary objective was to build an end‑to‑end **machine learning pipeline** that demonstrates strong data science fundamentals: data cleaning, exploratory data analysis (EDA), feature engineering, model development, and evaluation. This project also emphasizes reproducibility and good ML practices.
 
 ## 🔍Key Notes:
-- **Tools:** 
-
-  Python/Visualization
-
-    Pandas, NumPy – data manipulation
-    Matplotlib, Seaborn, Plotly – data visualization
-
-  Machine Learning
-
-    Scikit-learn – preprocessing, modeling, evaluation (Linear Regression, LASSO, Ridge, Random Forest)
-    XGBoost – gradient boosting models
+- **Tools:**
+    - Python/Visualization
+        - Pandas, NumPy – data manipulation
+        - Matplotlib, Seaborn, Plotly – data visualization
+    - Machine Learning
+        - Scikit-learn – preprocessing, modeling, evaluation (Linear Regression, LASSO, Ridge, Random Forest)
+        - XGBoost – gradient boosting models
 
 - **Techniques**: EDA, feature engineering, regression modeling, hyperparameter tuning, ensemble learning
 - **Goal**: Predict housing sale prices and compare classical regression with tree‑based and ensemble models
