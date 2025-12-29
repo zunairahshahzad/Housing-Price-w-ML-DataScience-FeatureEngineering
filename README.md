@@ -49,16 +49,18 @@ Each stage is explained in detail below.
     This ensured data consistency while preserving meaningful information.
 
 **- Exploratory Data Analysis (EDA)**
-Key EDA Steps
-Inspected dataset shape, data types, and summary statistics
-Analyzed the distribution of the target variable (SalePrice)
-Identified skewness and outliers in numerical features
-Explored correlations between numerical variables and sale price
-Insights from EDA
-Observed that SalePrice is right-skewed and applied log transformation to stabilize variance. 
-Visualization showed that strong predictors (numerical) include OverallQual (overall material and finish quality), GrLivArea (above-ground living area), Garage and basement-related features
-Location-based features (e.g., Neighborhood, lot shape, land contour) show large price differences
-EDA informed feature transformations and model selection later in the pipeline.
+    **Key EDA Steps**
+        - Inspected dataset shape, data types, and summary statistics
+        - Analyzed the distribution of the target variable (SalePrice)
+        - Identified skewness and outliers in numerical features
+        - Explored correlations between numerical variables and sale price
+
+    **Insights from EDA**
+        - Observed that SalePrice is right-skewed and applied log transformation to stabilize variance. 
+        - Visualization showed that strong predictors (numerical) include OverallQual (overall material and finish quality), GrLivArea (above-ground living area), Garage and basement-related features
+        - Location-based features (e.g., Neighborhood, lot shape, land contour) show large price differences
+    EDA informed feature transformations and model selection later in the pipeline.
+
 Feature Engineering
 Feature engineering was a core component of this project.
 Feature Preparation
