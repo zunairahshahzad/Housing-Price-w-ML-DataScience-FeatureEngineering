@@ -18,31 +18,37 @@ The primary objective was to build an end‑to‑end **machine learning pipeline
 
 ## 🔍 Problem Statement & Motivation:
 Accurately estimating home prices is a core problem in real estate analytics. Prices are influenced by a mix of numerical and categorical features, often with non‑linear relationships and missing data. The challenge is to:
-Prepare a complex real‑world dataset for modeling
-Engineer meaningful features
-Compare multiple regression approaches
-Improve predictive performance using ensemble methods
-Machine Learning Workflown:
-This project follows a structured, end-to-end ML pipeline:
-EDA → Data Cleaning → Feature Engineering → Modeling → Evaluation → Insights
-Each stage is explained in detail below.
-Data Exploration & Cleaning
-Initial Data Inspection:
-Examined dataset shape and structure
-Reviewed summary statistics for numerical and categorical features
-Identified skewness in the target variable (SalePrice)
-Missing Values Analysis 
-Computed both raw counts and percentages of missing values
-Identified both true missing values (data not recorded) and structural missing values (e.g., no basement or garage)
-Data Cleaning Strategy
-Numerical features:
-Imputed using median values to reduce sensitivity to outliers
-Categorical features:
-Imputed using the most frequent category or explicit labels such as None
-Ensured consistency between training and test data preprocessing
-This ensured data consistency while preserving meaningful information.
+1. Prepare a complex real‑world dataset for modeling
+2. Engineer meaningful features
+3. Compare multiple regression approaches
+4. Improve predictive performance using ensemble methods
 
-Exploratory Data Analysis (EDA)
+## 🔍 Machine Learning Workflown:
+This project follows a structured, end-to-end ML pipeline:
+
+EDA → Data Cleaning → Feature Engineering → Modeling → Evaluation → Insights
+
+Each stage is explained in detail below.
+
+- **Data Exploration & Cleaning**
+     **Initial Data Inspection:**
+      - Examined dataset shape and structure
+      - Reviewed summary statistics for numerical and categorical features
+      - Identified skewness in the target variable (SalePrice)
+
+    **Missing Values Analysis**
+      - Computed both raw counts and percentages of missing values
+      - Identified both true **missing values** (data not recorded) and         **structural missing values** (e.g., no basement or garage)
+
+    **Data Cleaning Strategy**
+      - Numerical features:
+        - Imputed using median values to reduce sensitivity to outliers
+    - Categorical features:
+        - Imputed using the most frequent category or explicit labels such as None
+    - Ensured consistency between training and test data preprocessing
+    This ensured data consistency while preserving meaningful information.
+
+**- Exploratory Data Analysis (EDA)**
 Key EDA Steps
 Inspected dataset shape, data types, and summary statistics
 Analyzed the distribution of the target variable (SalePrice)
