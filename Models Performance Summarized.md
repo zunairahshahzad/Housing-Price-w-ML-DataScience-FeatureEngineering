@@ -24,10 +24,10 @@
 
 **Overall:**
 
-- **Random Forest - Most stable Model (RMSE ≈ 0.15)** as it is robust to feature scaling and correlations, so its performance stayed consistent regardless of PCA or feature engineering.
+- Random Forest - Most stable Model (RMSE ≈ 0.15) as it is robust to feature scaling and correlations, so its performance stayed consistent regardless of PCA or feature engineering.
   
-- **XGBoost - Strong mostly throughout (best RMSE ≈ 0.137), slightly better with feature engineering.** Its boosting and regularization made it effective even without PCA or extensive feature engineering, though engineered features slightly helped it capture additional predictive patterns.
+- XGBoost - Strong mostly throughout (best RMSE ≈ 0.137), slightly better with feature engineering. Its boosting and regularization made it effective even without PCA or extensive feature engineering, though engineered features slightly helped it capture additional predictive patterns.
   
-- **MLP - Best overall performance after feature engineering (RMSE = 0.130)** as new features helped neaural network learn complex patterns.
+- MLP - Best overall performance after feature engineering (RMSE = 0.130) as new features helped neaural network learn complex patterns.
   
-- **Linear Regression - Biggest improved a lot after PCA (35B → 0.163 RMSE)** since PCA removed correlated features, allowing Linear Regression to make more reliable predictions on transformed, uncorrelated components.
+- Linear Regression - Biggest improved a lot after PCA (35B → 0.163 RMSE) since PCA removed correlated features, allowing Linear Regression to make more reliable predictions on transformed, uncorrelated components.
