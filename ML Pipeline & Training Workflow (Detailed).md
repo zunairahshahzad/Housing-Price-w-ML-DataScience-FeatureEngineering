@@ -17,6 +17,7 @@ To avoid these issues, this project uses **Scikit-learn Pipelines**, which bundl
 **Pipeline Architecture (High Level):**
 	
   The project follows this structure:
+  
   <img width="533" height="220" alt="image" src="https://github.com/user-attachments/assets/56277132-0c6f-47e5-ae2e-3fc169c3addb" />
 
 
