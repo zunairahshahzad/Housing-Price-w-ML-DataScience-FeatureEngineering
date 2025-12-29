@@ -6,10 +6,12 @@ The primary objective was to build an end‑to‑end **machine learning pipeline
 
 ## 🔍Key Notes:
 - **Tools:** 
-    Python/Visualization
+
+  Python/Visualization
       Pandas, NumPy – data manipulation 
       Matplotlib, Seaborn, Plotly – data visualization
-    Machine Learning
+
+  Machine Learning
       Scikit-learn – preprocessing, modeling, evaluation (Linear Regression, LASSO, Ridge, Random Forest)
       XGBoost – gradient boosting models
 
