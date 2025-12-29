@@ -1,19 +1,22 @@
-## Project Overview:
-This project focuses on predicting residential home sale prices in Ames, Iowa, using the Kaggle House Prices: Advanced Regression Techniques dataset. The dataset contains 1,460 observations and 79 explanatory variables describing nearly every aspect of a home, including location, size, quality, condition, and amenities.
+## 🔍 Project Overview:
+This project focuses on predicting residential home sale prices in Ames, Iowa, using the Kaggle House Prices: Advanced Regression Techniques dataset. The dataset contains **1,460 observations** and **79 explanatory variables** describing nearly every aspect of a home, including location, size, quality, condition, and amenities.
 
-## Objective:
-The primary objective was to build an end‑to‑end machine learning pipeline that demonstrates strong data science fundamentals: data cleaning, exploratory data analysis (EDA), feature engineering, model development, and evaluation. This project also emphasizes reproducibility and good ML practices.
-Key Notes:
-Tools: 
-Python/Visualization
-Pandas, NumPy – data manipulation 
-Matplotlib, Seaborn, Plotly – data visualization
-Machine Learning
-Scikit-learn – preprocessing, modeling, evaluation (Linear Regression, LASSO, Ridge, Random Forest)
-XGBoost – gradient boosting models
-Techniques: EDA, feature engineering, regression modeling, hyperparameter tuning, ensemble learning
-Goal: Predict housing sale prices and compare classical regression with tree‑based and ensemble models
-Problem Statement & Motivation:
+## 🔍 Objective:
+The primary objective was to build an end‑to‑end **machine learning pipeline** that demonstrates strong data science fundamentals: data cleaning, exploratory data analysis (EDA), feature engineering, model development, and evaluation. This project also emphasizes reproducibility and good ML practices.
+
+## 🔍Key Notes:
+- **Tools:** 
+    Python/Visualization
+      Pandas, NumPy – data manipulation 
+      Matplotlib, Seaborn, Plotly – data visualization
+    Machine Learning
+      Scikit-learn – preprocessing, modeling, evaluation (Linear Regression, LASSO, Ridge, Random Forest)
+      XGBoost – gradient boosting models
+
+- **Techniques**: EDA, feature engineering, regression modeling, hyperparameter tuning, ensemble learning
+- **Goal**: Predict housing sale prices and compare classical regression with tree‑based and ensemble models
+
+## 🔍 Problem Statement & Motivation:
 Accurately estimating home prices is a core problem in real estate analytics. Prices are influenced by a mix of numerical and categorical features, often with non‑linear relationships and missing data. The challenge is to:
 Prepare a complex real‑world dataset for modeling
 Engineer meaningful features
