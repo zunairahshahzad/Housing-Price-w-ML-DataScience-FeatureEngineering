@@ -4,7 +4,7 @@ This project focuses on predicting residential home sale prices in Ames, Iowa, u
 ## 🔍 Objective:
 The primary objective was to build an end‑to‑end **machine learning pipeline** that demonstrates strong data science fundamentals: data cleaning, exploratory data analysis (EDA), feature engineering, model development, and evaluation. This project also emphasizes reproducibility and good ML practices.
 
-## 🔍Key Notes:
+## 🔍 Key Notes:
 - **Tools:**
     - Python/Visualization
         - Pandas, NumPy – data manipulation
